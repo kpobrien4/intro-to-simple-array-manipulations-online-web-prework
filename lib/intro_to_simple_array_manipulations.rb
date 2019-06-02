@@ -33,3 +33,15 @@ end
 def using_uniq(captain_planet_and_the_planeteers)
   captain_planet_and_the_planeteers.uniq
 end
+
+def using_flatten(private_colleges_in_newyork)
+  private_colleges_in_newyork.flatten
+end
+
+def no_offense_steven = using_delete(instructors, "Steven")
+  no_offense_steven.delete("Steven")
+end
+
+
+
+
